@@ -35,10 +35,12 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Download CV
+                View Resume
               </a>
             </div>
           </div>
@@ -79,10 +81,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">App Development</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Build powerful and elegant web apps rapidly with Django’s
+                    clean, pragmatic design.
                   </p>
                 </div>
               </div>
